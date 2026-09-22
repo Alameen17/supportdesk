@@ -1,9 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using SupportDesk.Infrastructure.Persistence;
+using SupportDesk.Application.Auth;
+using SupportDesk.Infrastructure.Auth;
+using SupportDesk.Api.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<ITenantContext, TenantContext>();
+
+builder.Services.AddScoped<IPasswordHasher, BCryptPasswordHasher>();
+builder.Services.AddScoped<ITokenService, JwtTokenService>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
@@ -20,5 +26,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapGet("/", () => "SupportDesk API is running");
+
+app.MapAuthEndpoints();
 
 app.Run();
