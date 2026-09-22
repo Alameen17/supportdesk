@@ -1,0 +1,15 @@
+/Users/alame/SupportDesk/src/Application/bin/Debug/net9.0/Application.deps.json
+/Users/alame/SupportDesk/src/Application/bin/Debug/net9.0/Application.dll
+/Users/alame/SupportDesk/src/Application/bin/Debug/net9.0/Application.pdb
+/Users/alame/SupportDesk/src/Application/bin/Debug/net9.0/Domain.dll
+/Users/alame/SupportDesk/src/Application/bin/Debug/net9.0/Domain.pdb
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.csproj.AssemblyReference.cache
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.csproj.CoreCompileInputs.cache
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Applicat.44B5EDA2.Up2Date
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.dll
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/refint/Application.dll
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.pdb
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/ref/Application.dll

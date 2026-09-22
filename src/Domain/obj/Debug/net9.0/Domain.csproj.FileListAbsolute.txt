@@ -1,0 +1,11 @@
+/Users/alame/SupportDesk/src/Domain/bin/Debug/net9.0/Domain.deps.json
+/Users/alame/SupportDesk/src/Domain/bin/Debug/net9.0/Domain.dll
+/Users/alame/SupportDesk/src/Domain/bin/Debug/net9.0/Domain.pdb
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/Domain.dll
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/refint/Domain.dll
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/Domain.pdb
+/Users/alame/SupportDesk/src/Domain/obj/Debug/net9.0/ref/Domain.dll
