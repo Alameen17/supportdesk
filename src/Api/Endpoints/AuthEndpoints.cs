@@ -14,6 +14,7 @@ public static class AuthEndpoints
 
         group.MapPost("/register", Register);
         group.MapPost("/login", Login);
+        group.MapGet("/me", Me).RequireAuthorization();
     }
 
     private static async Task<IResult> Register(
@@ -76,7 +77,7 @@ public static class AuthEndpoints
 
         /* Deliberately identical error for "no such user" and "wrong password" —
         distinguishing them lets an attacker enumerate valid emails. */
-        
+
         if (user is null || !hasher.Verify(request.Password, user.PasswordHash))
             return Results.Unauthorized();
 
@@ -90,6 +91,21 @@ public static class AuthEndpoints
         SetRefreshTokenCookie(http, refreshToken);
 
         return Results.Ok(new AuthResponse(accessToken, expiresAt, user.Id, user.TenantId, user.DisplayName));
+    }
+
+    private static IResult Me(HttpContext http, ITenantContext tenantContext)
+    {
+    var userId = http.User.FindFirst("sub")?.Value;
+    var email = http.User.FindFirst("email")?.Value;
+    var role = http.User.FindFirst("role")?.Value;
+
+    return Results.Ok(new
+    {
+        UserId = userId,
+        Email = email,
+        Role = role,
+        TenantId = tenantContext.TenantId
+    });
     }
 
     private static void SetRefreshTokenCookie(HttpContext http, string refreshToken)

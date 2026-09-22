@@ -20,6 +20,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
+        options.MapInboundClaims = false;
         var signingKey = builder.Configuration["Jwt:SigningKey"]!;
         var issuer = builder.Configuration["Jwt:Issuer"]!;
 
