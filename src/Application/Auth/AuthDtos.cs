@@ -12,10 +12,11 @@ public record LoginRequest(
     string Email,
     string Password);
 
-// What we hand back after a successful register or login.
-// AccessToken is short-lived and goes in the Authorization header.
-// The refresh token itself is NOT in this DTO — it's set as an httpOnly
-// cookie by the endpoint directly, so client-side JS can never read it.
+/* What we hand back after a successful register or login.
+   AccessToken is short-lived and goes in the Authorization header.
+   The refresh token itself is NOT in this DTO — it's set as an httpOnly
+   cookie by the endpoint directly, so client-side JS can never read it.
+*/
 public record AuthResponse(
     string AccessToken,
     DateTimeOffset AccessTokenExpiresAtUtc,

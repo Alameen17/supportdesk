@@ -138,3 +138,12 @@
 /Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/BCrypt.Net-Next.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/alame/SupportDesk/src/Api/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/alame/SupportDesk/src/Api/obj/Debug/net9.0/Api.sourcelink.json

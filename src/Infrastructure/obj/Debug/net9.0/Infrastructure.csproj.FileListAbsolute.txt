@@ -17,3 +17,4 @@
 /Users/alame/SupportDesk/src/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
 /Users/alame/SupportDesk/src/Infrastructure/obj/Debug/net9.0/Infrastructure.genruntimeconfig.cache
 /Users/alame/SupportDesk/src/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll
+/Users/alame/SupportDesk/src/Infrastructure/obj/Debug/net9.0/Infrastructure.sourcelink.json

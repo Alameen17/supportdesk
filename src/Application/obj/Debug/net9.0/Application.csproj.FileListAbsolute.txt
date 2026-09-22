@@ -13,3 +13,4 @@
 /Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/refint/Application.dll
 /Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.pdb
 /Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/ref/Application.dll
+/Users/alame/SupportDesk/src/Application/obj/Debug/net9.0/Application.sourcelink.json
